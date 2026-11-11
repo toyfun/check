@@ -1,0 +1,10 @@
+{
+  "name": "GLaDOS 自动签到",
+  "task": [
+    {
+      "config": "15 7,15 * * * https://raw.githubusercontent.com/toyfun/check/main/glados.autosign.js, tag=GLaDOS签到, enabled=true",
+      "addons": "https://raw.githubusercontent.com/toyfun/check/main/glados.snippet"
+    }
+  ],
+  "description": "GLaDOS 自动签到：自动添加定时任务、会话抓取重写和 MITM hostname。安装后登录 GLaDOS，并打开签到页面一次。"
+}
