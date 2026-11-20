@@ -1,10 +1,9 @@
 {
-  "name": "GLaDOS 自动签到",
+  "name": "星驰API签到",
+  "description": "Quantumult X 定时任务画廊。刷新画廊即可同步星驰API签到脚本；首次使用仍需配置 XINGCHIAPI_ACCOUNT（refresh_token）。",
   "task": [
     {
-      "config": "15 7,15 * * * https://raw.githubusercontent.com/toyfun/check/main/glados.autosign.js, tag=GLaDOS签到, enabled=true",
-      "addons": "https://raw.githubusercontent.com/toyfun/check/main/glados.snippet"
+      "config": "5 0 * * * https://raw.githubusercontent.com/ddgksf2013/Scripts/master/xingchiapi_checkin.js#force-timeout=120000, tag=星驰API签到, img-url=https://raw.githubusercontent.com/crossutility/Quantumult-X/master/quantumult-x.png, enabled=true"
     }
-  ],
-  "description": "GLaDOS 自动签到：自动添加定时任务、会话抓取重写和 MITM hostname。安装后登录 GLaDOS，并打开签到页面一次。"
+  ]
 }
